@@ -1,4 +1,4 @@
-package com.dizu;
+package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView esqueceuSenha;
-    Button   buttonEntrar;
-    EditText campUsuario;
-    EditText campoSenha;
+    TextView    esqueceuSenha;
+    Button      buttonEntrar;
+    EditText    campUsuario;
+    EditText    campoSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +37,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 }
