@@ -41,6 +41,12 @@
         android:id="@+id/textViewEsqueceuSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/esqueceu_a_senha" />
+        android:text="esqueceu a senha?" />
+
+    <TextView
+        android:id="@+id/textViewCriarConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/criar_uma_conta" />
 
 </LinearLayout>
